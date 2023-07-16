@@ -58,7 +58,7 @@ app.use((req, res, next) => {
 });
 
 // define the route for serving a request
-app.use("/collections", collectionRoute);
+app.use("/.netlify/functions/api/collections", collectionRoute);
 app.use("/", (req, res) => {
   res.status(200).json({ message: "application is running"})
 })
