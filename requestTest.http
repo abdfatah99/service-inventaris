@@ -1,0 +1,18 @@
+# get all data
+GET http://localhost:3032/collections
+
+###
+# get specific data
+GET http://localhost:3032/123
+
+###
+# post data
+POST http://localhost:3032
+
+###
+# update data
+PATCH http://localhost:3002/123
+
+###
+# delete data
+DELETE http://localhost:3002/123
